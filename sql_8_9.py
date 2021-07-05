@@ -1,6 +1,6 @@
 import requests
 from lxml import html
-#https://sql.training.hackerdom.ru/9almost.php
+
 def sql_8():
     url = 'https://sql.training.hackerdom.ru/8qqqwwweeerrr.php'
     alph = "1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM_-"
